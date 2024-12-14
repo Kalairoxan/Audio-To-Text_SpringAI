@@ -15,6 +15,7 @@ Support for multiple audio file formats.
 
 Prerequisites
 
+
 Before running the project, ensure you have the following:
 
 Java (version 17 or higher)
@@ -25,22 +26,29 @@ An OpenAI API key (sign up at OpenAI to obtain one)
 
 Installation
 
+
 Clone the repository:
 
 git clone https://github.com/yourusername/audio-to-text-converter.git
 cd audio-to-text-converter
 
+
 Configure your OpenAI API key:
+
 
 Create a application.properties file in the src/main/resources directory.
 
+
 Add the following configuration:
+
 
 openai.api.key=your_openai_api_key_here
 spring.application.name=AudioToTextConverter
 server.port=8080
 
+
 Build the project:
+
 
 mvn clean install
 
@@ -48,7 +56,9 @@ Run the application:
 
 mvn spring-boot:run
 
+
 Usage
+
 
 Upload Audio File:
 
@@ -56,11 +66,15 @@ Navigate to http://localhost:8080.
 
 Use the provided web interface to upload your audio file.
 
+
 Get Transcription:
+
 
 After uploading, the application will process the file and return the transcribed text.
 
+
 API Usage:
+
 
 You can also use the REST API endpoint to upload files programmatically:
 
@@ -70,7 +84,9 @@ File: [audio_file]
 
 The API will return the transcription as a JSON response.
 
+
 Dependencies
+
 
 This project uses the following dependencies:
 
@@ -90,15 +106,9 @@ Enhance error handling and validation.
 
 Add multi-language support for transcription.
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contributing
-
-Contributions are welcome! Please follow these steps:
 
 Fork the repository.
+
 
 Create a feature branch (git checkout -b feature-name).
 
@@ -108,7 +118,11 @@ Push to the branch (git push origin feature-name).
 
 Create a pull request.
 
+
+
 Contact
+
+
 
 For any questions or suggestions, feel free to contact:
 
