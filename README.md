@@ -70,24 +70,6 @@ File: [audio_file]
 
 The API will return the transcription as a JSON response.
 
-Project Structure
-
-Audio-to-Text-Converter/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.example.audiototext/
-│   │   │       ├── controller/    # REST API Controllers
-│   │   │       ├── service/       # Service Layer
-│   │   │       ├── config/        # Configuration Files
-│   │   │       ├── util/          # Utility Classes
-│   │   │       └── AudioToTextApplication.java  # Main Class
-│   │   └── resources/
-│   │       └── application.properties
-├── pom.xml  # Maven Configuration
-├── README.md
-└── .gitignore
-
 Dependencies
 
 This project uses the following dependencies:
